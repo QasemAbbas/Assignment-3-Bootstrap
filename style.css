@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* bacground sets */
+
+
+
+/* Hero Section */
+.btn_size{
+    width: 20px !important;
+    height: 20px!important;
+    border-radius: 50%!important;
+    background-color: #6f42c1!important;
+}
+
+.carousel-dark{
+margin-left: 500px;
+}
+
+
+
+.vartical_line{
+    display: inline-block;
+    border-radius: 25px;
+    width: 156px;
+    height: 25px;
+    background-color: #6f42c1;              
+}
+
+.in_color{
+    color: #6f42c1; 
+}
+
+
+/*We Are Very Skilled*/
+.skilled_sec{
+    background-color:#eee7fc;
+    width: 100%;
+    height: 655px;
+    justify-content: center;
+}
+
+.pic_1{
+    width:255px;
+    height:515px;
+}
+.text_size{
+    text-align: justify;
+}
+
+/* instagram section */
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* common color */
+.btn_color{
+    background-color: #FE8C45;
+}
+
+
+
+/* Add some spacing and border radius to images */
+img.rounded {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+
+/* portfolio_area */
+.portfolio_area{
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.portfolio_area li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Our protfolio*/
+.protf{
+    color: #8A47F6;
+}
+
+
+/* Price section */
+.middile_div{
+    background-color: #222222;
+}
+.btn_same{
+    margin-left: 60px;
+}
+
+
+/* what Our section */
+.what_border{
+    border: none;  
+}
+.what_bac{
+    background-color:#eee7fc;
+}
+.what_pic{
+    width: 565px;
+    height: 421px;
+}
+.what-pic-bac{
+    background-color:#eee7fc;
+    height: 565px;
+}
+
+ 
+
+.text_color{
+    color: black !important;
+}
+
+/* hava a Qustin */
+.location{
+width: 25px;
+height: 25px;
+}
+
+/*footer*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.social a{
+    padding: 5px; 
+    background-color: #222222;
+}
+
+.foot_bacg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 114px;
+    background-color: #222222;
+}
+.foot_p{
+    color: #fff;
+    padding: 0px 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fa-facebook-f, .fa-instagram, .fa-twitter{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 15px;
+}
